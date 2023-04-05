@@ -1,0 +1,63 @@
+body {
+  background-color: #fefeff;
+  background-image: url(/asset/img/nature-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.card-main {
+  padding: 22vh 15% 15% 8%;
+  width: 60vw;
+  height: 70vh;
+  margin: auto;
+  margin-top: 10vh;
+  background: rgba(255, 255, 255, 0.425);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.473);
+}
+.card-main-title {
+  font-size: 30pt;
+  font-weight: bold;
+}
+.card-main-subtitle {
+  font-size: 16pt;
+}
+.card-main-link:link, .card-main-link:visited {
+  font-weight: bolder;
+  margin-top: 5%;
+  background-color: #fefeff;
+  color: black;
+  border: 2px solid #64b386;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 10px;
+}
+.card-main-link:hover, .card-main-link:active {
+    background-color: #64b386;
+    color: white;
+  }
+.offcanvas-main-link:link, .offcanvas-main-link:visited {
+    font-weight: bolder;
+    background-color: #fefeff7c;
+    color: black;
+    border: 2px solid #64b386;
+    padding: 0px 10px;
+    text-align: center;
+    display: inline-block;
+    border-radius: 10px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 1;
+    margin: 1%;
+    font-size: 32px;
+  }
+  
+.offcanvas-main-link:hover, .offcanvas-main-link:active {
+    background-color: #64b386;
+    color: white;
+  }
