@@ -1,11 +1,12 @@
 body {
     background-color: #fefeff;
-    background-image: url(/asset/img/landscape-bg2.jpg);
+    background-image: url(../asset/img/landscape-bg2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    color: #323232;
 }
 .card-main {
-    padding: 18vh 15% 15% 8%;
+    padding: 10%;
     width: 60vw;
     height: 70vh;
     margin: auto;
@@ -16,11 +17,12 @@ body {
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(5px);
     border: 1px solid rgba(255, 255, 255, 0.473);
+    text-align: center;
 }
 .card-main-title {
     font-size: 30pt;
     font-weight: bold;
-}
+  }
 .card-main-subtitle {
     font-size: 16pt;
 }
@@ -66,6 +68,10 @@ body {
     z-index: 1;
     margin: 1%;
     font-size: 32px;
+  }
+  .p-offcanvas {
+    position: absolute;
+    bottom: 0;
   }
 .offcanvas-main-link:hover, .offcanvas-main-link:active {
     background-color: #64b386;

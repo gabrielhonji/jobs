@@ -1,8 +1,7 @@
 body {
   background-color: #fefeff;
-  background-image: url(../asset/img/nature-bg.jpg);
+  background-image: url(../asset/img/winter-bg2.jpg);
   background-repeat: no-repeat;
-  background-size: cover;
   color: #323232;
 }
 .card-main {
@@ -31,7 +30,7 @@ body {
   background-color: #fefeff;
   color: black;
   border: 2px solid #64b386;
-  padding: 5px 10px;
+  padding: 10px 15px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -57,10 +56,10 @@ body {
     margin: 1%;
     font-size: 32px;
   }
-.p-offcanvas {
-  position: absolute;
-  bottom: 0;
-}
+  .p-offcanvas {
+    position: absolute;
+    bottom: 0;
+  }
 .offcanvas-main-link:hover, .offcanvas-main-link:active {
     background-color: #64b386;
     color: white;
