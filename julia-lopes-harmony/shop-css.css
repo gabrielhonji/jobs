@@ -1,0 +1,77 @@
+/* Google Fonts Link */
+@font-face {
+    font-family: 'Inter', sans-serif;
+    src: url(../assets/fonts/Inter.ttf);
+}
+@font-face{
+    font-family:halimun;
+    font-style:normal;
+    font-weight:400;
+    src:local('Halimun'),url(https://fonts.cdnfonts.com/s/22632/Halimun.woff) format('woff');
+}
+/* Html Style */
+body {
+    font-family: 'Inter';
+    background-color: #FCFAFA;
+    /* background-color: #4d9085; */
+    overflow-x: none;
+    overflow-y: overlay;
+    padding: 0;
+    margin: 0;
+}
+/* Navbar */
+.navbar {
+    height: 90px;
+}
+.navbar-brand-div {
+    display: flex;
+}
+.navbar-brand {
+    display: flex;
+    font-family: 'Halimun', sans-serif;
+}
+.navbar-brand-img {
+    width: auto;
+    height: 40px;
+}
+.navbar-brand-h1 {
+    font-size: 20pt;
+}
+.nav-div-2 {
+    justify-content: center;
+}
+.nav-item {
+    padding-right: 10px;
+}
+.nav-icon {
+    font-size: 14pt;
+    --ionicon-stroke-width: 50px;
+}
+.nav-div-3 {
+    justify-content: right;
+}
+.form-textbox-input {
+    border-radius: 10rem;
+    width: 80%;
+    height: 24px;
+    align-self: center;
+}
+.straight-line {
+    border-bottom: 2px solid #0000005d;
+    width: 93%;
+}
+@media screen and (max-width: 992px) {
+    .navbar-brand-div {
+        width: 100%;
+        justify-content: space-between;
+    }
+}
+/* Shop Section */
+.shop-section {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    grid-template-rows: repeat(3, auto);
+}
+.shop-grid-item-1 {
+    
+}
