@@ -53,21 +53,49 @@
         <div class="straight-line container-fluid"></div>
     </div>
     <section class="shop-section">
-        <div class="shop-grid-item shop-grid-item-1">
-            <img src="../assets/imgs/perfume_01.png" alt="">
+        <div class="shop-grid-item shop-grid-item-1" data-bs-theme="dark">
+            <div id="carouselExampleIndicators" class="carousel slide">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="../assets/imgs/perfume_01.png" class="d-block" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="../assets/imgs/perfume_01.png" class="d-block" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="../assets/imgs/perfume_01.png" class="d-block" alt="...">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
         </div>
         <div class="shop-grid-item shop-grid-item-2">
             <h1>Perfume Sauvage Dior 100ml</h1>
             <span class="shop-tag">Unissex</span>
         </div>
         <div class="shop-grid-item shop-grid-item-3">
-            <p>R$: 569,90</p>
-            <p>Em até 10x sem juros</p>
-            <a href="#">COMPRAR</a>
+            <p class="shop-price">R$: 569,90</p>
+            <p class="shop-sub-price">Em até 10x sem juros</p>
         </div>
         <div class="shop-grid-item shop-grid-item-4">
-            <span>Descrição do produto:</span>
-            <p>Uma nova interpretação extremamente concentrada de Sauvage onde o frescor é extremo com tons quentes coloridos e orientais cuja beleza feroz exige viver sobre a pele.François Demachy, Perfumista-Criador Dior, inspirou-se nos espaços abertos sob uma noite azulada quando os intensos aromas de um fogo crepitante surgem.O perfume de uma nova fronteira: uma variação de aura enriquecida e inebriante que celebra a magia do ar livre em amplos espaços.</p>
+            <span class="shop-desc-span">Descrição do produto:</span>
+            <p class="shop-desc-p">Uma nova interpretação extremamente concentrada de Sauvage onde o frescor é extremo com tons quentes coloridos e orientais cuja beleza feroz exige viver sobre a pele.François Demachy, Perfumista-Criador Dior, inspirou-se nos espaços abertos sob uma noite azulada quando os intensos aromas de um fogo crepitante surgem.O perfume de uma nova fronteira: uma variação de aura enriquecida e inebriante que celebra a magia do ar livre em amplos espaços.</p>
+            <div class="shop-options">
+                <a href="#" class="shop-buy-btn">COMPRAR</a>
+                <a href="#" class="shop-add-btn"><ion-icon name="bag-add-outline"></ion-icon></a>
+            </div>
         </div>
     </section>
     <!-- Link Ion Icons -->
